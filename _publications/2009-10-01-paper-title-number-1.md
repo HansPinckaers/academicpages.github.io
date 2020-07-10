@@ -2,7 +2,7 @@
 title: "Urinating Standing versus Sitting: Position Is of Influence in Men with Prostate Enlargement. A Systematic Review and Meta-Analysis"
 collection: publications
 permalink: /publication/2014-07-22-standing-vs-sitting
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'In this article, the influence of body position during micturition on maximum urinary flow rate (Qmax), voiding time (TQ) and post-void residual volume (PVR) in healthy males and patients with LUTS is analyzed by means of a systematic review and meta-analysis.'
 date: 2014-07-22
 venue: 'PLOS ONE'
 paperurl: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0101320'
