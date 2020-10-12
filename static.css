@@ -4131,4 +4131,4 @@ a.tc-tiddlylink-missing {
    font-weight: 400 !important;
 }.tc-tiddler-view-frame .tc-titlebar h2.tc-title {
     width: 100%;
-}
+}.tc-tiddler-title-icon { display: none;}
