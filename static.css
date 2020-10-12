@@ -3942,8 +3942,7 @@ overflow: inherit !important;
      padding: 0px;
 top:0em;
 margin-top:-3.5em;
-}
-}
+}}
 @media (min-width: 960px) {
 .tc-topbar {
     position: fixed;
@@ -4070,7 +4069,13 @@ font-weight: 500; }.tc-tiddler-frame {
                 0 16px 32px rgba(0,0,0,0.03) !important;
     border-radius: 4px;
 }p+ul {
-  margin-top:0em;
+  margin-top: -0.5em;
+}.tc-site-title {
+   font-size: 2.0em;
+}@media (max-width: 960px) {
+.tc-site-title {
+   font-size: 1.6em;
+}
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Literata:wght@400;700&display=swap');.tc-site-title,
