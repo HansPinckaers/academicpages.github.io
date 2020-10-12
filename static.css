@@ -4122,4 +4122,5 @@ a.tc-tiddlylink-missing {
   text-decoration: none;
    font-style:normal !important;
   color: rgba(0, 0, 0, 0.87) !important;
+   font-weight: 400 !important;
 }
