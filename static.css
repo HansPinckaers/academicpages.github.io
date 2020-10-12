@@ -4113,4 +4113,11 @@ font-weight: 500; }.tc-tiddler-frame {
 }
 .hideprint{
 display: none;
+}.tc-tiddlylink-missing {
+  cursor: not-allowed;
+}
+.tc-tiddlylink-missing > a {
+  display: inline-block;  /* For IE11/ MS Edge bug */
+  pointer-events: none;
+  text-decoration: none;
 }
