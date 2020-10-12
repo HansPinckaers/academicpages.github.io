@@ -4124,4 +4124,6 @@ a.tc-tiddlylink-missing {
    font-style:normal !important;
   color: rgba(0, 0, 0, 0.87) !important;
    font-weight: 400 !important;
+}.tc-tiddler-view-frame .tc-titlebar h2.tc-title {
+    width: 100%;
 }
