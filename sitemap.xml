@@ -1,165 +1,80 @@
-<!doctype html>
-<html>
-<head>
 
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="generator" content="TiddlyWiki" />
-<meta name="tiddlywiki-version" content="5.1.22" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-<meta name="mobile-web-app-capable" content="yes"/>
-<meta name="format-detection" content="telephone=no">
-<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" href="static.css">
-<link href="https://fonts.googleapis.com/css2?family=Literata:wght@400;700&display=swap" rel="stylesheet">
-<title>sitemap — Hans Pinckaers</title>
-</head>
-<body class="tc-body">
-
-<div class="tc-sidebar-scrollable" style="overflow: auto;">
-<div class="tc-sidebar-header"><h1 class="tc-site-title"><a href="/" class='tc-tiddlylink'>Hans Pinckaers — Public notes</a> </h1></div>
-
-<div class="tc-site-subtitle">A collection of short public notes exported from my private <a href="https://tiddlywiki.com/" class="tc-tiddlylink">tiddlywiki</a>. Find an <a href="/" class="tc-tiddlylink">overview of all notes here.</a> Feedback? You can reach me at <em>mail@hanspinckaers.com</em>.</div>
-</div>
-
-
-<section class="tc-story-river">
-<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-Public" data-tags="Public" data-tiddler-title="sitemap"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal">
-
-	<button class="tc-btn-invisible tc-btn-%24%3A%2F_sq%2FStories%2FdivertTiddlerMacro" title="Divert this tiddler to the other story">
-		
-			
-		
-		
-			
-			
-		<span class="sq-button-divert-right sq-button-divert"><svg class="tc-image-button" height="30pt" viewBox="0 0 100 125" width="30pt" x="0px" y="0px"><path d="M92.803,44.697l-27.5-27.5c-2.929-2.929-7.678-2.929-10.607,0c-2.929,2.929-2.929,7.678,0,10.607  L69.393,42.5H30h0c-5.118,0-10.237,1.953-14.142,5.858c-7.81,7.81-7.81,20.474,0,28.284c2.929,2.929,7.678,2.929,10.607,0  c2.929-2.929,2.929-7.678,0-10.607c-1.953-1.953-1.953-5.118,0-7.071C27.441,57.988,28.72,57.5,30,57.5h0v0h39.393L54.697,72.197  c-2.929,2.929-2.929,7.678,0,10.607s7.678,2.929,10.607,0l18.661-18.661l8.839-8.839C95.732,52.374,95.732,47.626,92.803,44.697z"></path></svg></span><span class="sq-button-divert-left sq-button-divert"><svg class="tc-image-button" height="30pt" viewBox="0 0 100 125" width="30pt" x="0px" y="0px"><path d="M7.197,44.697l27.5-27.5c2.929-2.929,7.678-2.929,10.607,0c2.929,2.929,2.929,7.678,0,10.607L30.607,42.5H70  h0c5.118,0,10.237,1.953,14.142,5.858c7.81,7.81,7.81,20.474,0,28.284c-2.929,2.929-7.678,2.929-10.607,0  c-2.929-2.929-2.929-7.678,0-10.607c1.953-1.953,1.953-5.118,0-7.071C72.559,57.988,71.28,57.5,70,57.5h0v0H30.607l14.697,14.697  c2.929,2.929,2.929,7.678,0,10.607c-2.929,2.929-7.678,2.929-10.607,0L16.036,64.142l-8.839-8.839  C4.268,52.374,4.268,47.626,7.197,44.697z"></path></svg></span>
-	</button>
-
-
-</span><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">sitemap</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
-<div class="tc-subtitle">
-<a class="tc-tiddlylink tc-tiddlylink-missing" href="./hanspinckaers">
-hanspinckaers
-</a>
-updated 3 minutes ago
-<span style="float:right">created: 21 October 2020
-</span>
-</div><div class=" tc-reveal">
-<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
-<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
-fill:rgba(0, 0, 0, 0.87);
-color:rgba(0, 0, 0, 0.87);">
-Public
-</span>
-<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
-</div>
-
-<div class="cherry-area">
-  
-
-
-</div><div class="tc-tiddler-body tc-reveal"><p><pre>
-<code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;</code>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Decaffeinated%2520coffee%2520beans%2520%2520%25E2%2580%2594%2520sources%2520in%2520The%2520Netherlands.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-21<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Decaffeinated%2520coffee%2520beans%2520%2520%25E2%2580%2594%2520sources%2520in%2520The%2520Netherlands.html</loc> 
+   <lastmod>2020-10-21</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Detection%2520of%2520prostate%2520cancer%2520in%2520whole-slide%2520images%2520through%2520end-to-end%2520training%2520with%2520image-level%2520labels.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-13<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Detection%2520of%2520prostate%2520cancer%2520in%2520whole-slide%2520images%2520through%2520end-to-end%2520training%2520with%2520image-level%2520labels.html</loc> 
+   <lastmod>2020-10-13</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>High%2520resolution%2520whole%2520prostate%2520biopsy%2520classification%2520using%2520streaming%2520stochastic%2520gradient%2520descent.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-13<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>High%2520resolution%2520whole%2520prostate%2520biopsy%2520classification%2520using%2520streaming%2520stochastic%2520gradient%2520descent.html</loc> 
+   <lastmod>2020-10-13</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Host%2520tiddlywiki%2520for%2520free%2520with%2520authentication%2520on%2520alwaysdata.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-12<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Host%2520tiddlywiki%2520for%2520free%2520with%2520authentication%2520on%2520alwaysdata.html</loc> 
+   <lastmod>2020-10-12</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>My%2520coffee%2520gear.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-20<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>My%2520coffee%2520gear.html</loc> 
+   <lastmod>2020-10-20</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Neural%2520Ordinary%2520Differential%2520Equations%2520for%2520Semantic%2520Segmentation%2520of%2520Individual%2520Colon%2520Glands.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-13<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Neural%2520Ordinary%2520Differential%2520Equations%2520for%2520Semantic%2520Segmentation%2520of%2520Individual%2520Colon%2520Glands.html</loc> 
+   <lastmod>2020-10-13</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Notes%2520on%2520dialing%2520in%2520an%2520espresso.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-19<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Notes%2520on%2520dialing%2520in%2520an%2520espresso.html</loc> 
+   <lastmod>2020-10-19</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Overview.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-16<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Overview.html</loc> 
+   <lastmod>2020-10-16</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Streaming%2520convolutional%2520neural%2520networks%2520for%2520end-to-end%2520learning%2520with%2520multi-megapixel%2520images.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-13<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Streaming%2520convolutional%2520neural%2520networks%2520for%2520end-to-end%2520learning%2520with%2520multi-megapixel%2520images.html</loc> 
+   <lastmod>2020-10-13</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Training%2520convolutional%2520neural%2520networks%2520with%2520megapixel%2520images.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-13<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Training%2520convolutional%2520neural%2520networks%2520with%2520megapixel%2520images.html</loc> 
+   <lastmod>2020-10-13</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>Using%2520a%2520Sony%2520alpha%2520camera%2520as%2520a%2520webcam%2520in%2520Ubuntu.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-16<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>Using%2520a%2520Sony%2520alpha%2520camera%2520as%2520a%2520webcam%2520in%2520Ubuntu.html</loc> 
+   <lastmod>2020-10-16</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
  
-<code>&lt;url&gt;
-   &lt;loc&gt;</code>sitemap.html<code>&lt;/loc&gt; 
-   &lt;lastmod&gt;</code>2020-10-21<code>&lt;/lastmod&gt;  
-   &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; 
-&lt;/url&gt; </code> <br>
+<url>
+   <loc>sitemap.html</loc> 
+   <lastmod>2020-10-21</lastmod>  
+   <changefreq>weekly</changefreq><priority>0.5</priority> 
+</url>  
 
 
   
-<code>&lt;/urlset&gt;</code>
-</pre></p></div>
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        
-    
-
-</div>
-
-</p>
-</section>
-</body>
-</html>
+</urlset>
