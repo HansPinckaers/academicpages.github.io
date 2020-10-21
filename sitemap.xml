@@ -1,84 +1,60 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
- 
 <url>
-   <loc>Decaffeinated%2520coffee%2520beans%2520%2520%25E2%2580%2594%2520sources%2520in%2520The%2520Netherlands.html</loc> 
+   <loc>index.html</loc> 
+   <lastmod>2020-10-21</lastmod>
+   <priority>1.0</priority> 
+</url> 
+<url>
+   <loc>Decaffeinated-coffee-beans-sources-in-The-Netherlands.html</loc> 
    <lastmod>2020-10-21</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>Detection%2520of%2520prostate%2520cancer%2520in%2520whole-slide%2520images%2520through%2520end-to-end%2520training%2520with%2520image-level%2520labels.html</loc> 
+   <loc>Detection-of-prostate-cancer-in-whole-slide-images-through-end-to-end-training-with-image-level-labels.html</loc> 
    <lastmod>2020-10-13</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>Draft%2520of%2520'sitemap'%2520by%2520hanspinckaers.html</loc> 
-   <lastmod>2020-10-21</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
-</url>  
- 
-<url>
-   <loc>High%2520resolution%2520whole%2520prostate%2520biopsy%2520classification%2520using%2520streaming%2520stochastic%2520gradient%2520descent.html</loc> 
+   <loc>High-resolution-whole-prostate-biopsy-classification-using-streaming-stochastic-gradient-descent.html</loc> 
    <lastmod>2020-10-13</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>Host%2520tiddlywiki%2520for%2520free%2520with%2520authentication%2520on%2520alwaysdata.html</loc> 
+   <loc>Host-tiddlywiki-for-free-with-authentication-on-alwaysdata.html</loc> 
    <lastmod>2020-10-12</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>My%2520coffee%2520gear.html</loc> 
+   <loc>My-coffee-gear.html</loc> 
    <lastmod>2020-10-20</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>Neural%2520Ordinary%2520Differential%2520Equations%2520for%2520Semantic%2520Segmentation%2520of%2520Individual%2520Colon%2520Glands.html</loc> 
+   <loc>Neural-Ordinary-Differential-Equations-for-Semantic-Segmentation-of-Individual-Colon-Glands.html</loc> 
    <lastmod>2020-10-13</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>Notes%2520on%2520dialing%2520in%2520an%2520espresso.html</loc> 
+   <loc>Notes-on-dialing-in-an-espresso.html</loc> 
    <lastmod>2020-10-19</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>Overview.html</loc> 
-   <lastmod>2020-10-16</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
-</url>  
- 
-<url>
-   <loc>Streaming%2520convolutional%2520neural%2520networks%2520for%2520end-to-end%2520learning%2520with%2520multi-megapixel%2520images.html</loc> 
+   <loc>Streaming-convolutional-neural-networks-for-end-to-end-learning-with-multi-megapixel-images.html</loc> 
    <lastmod>2020-10-13</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>Training%2520convolutional%2520neural%2520networks%2520with%2520megapixel%2520images.html</loc> 
+   <loc>Training-convolutional-neural-networks-with-megapixel-images.html</loc> 
    <lastmod>2020-10-13</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
- 
 <url>
-   <loc>Using%2520a%2520Sony%2520alpha%2520camera%2520as%2520a%2520webcam%2520in%2520Ubuntu.html</loc> 
+   <loc>Using-a-Sony-alpha-camera-as-a-webcam-in-Ubuntu.html</loc> 
    <lastmod>2020-10-16</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
-</url>  
- 
-<url>
-   <loc>sitemap.html</loc> 
-   <lastmod>2020-10-21</lastmod>  
-   <changefreq>weekly</changefreq><priority>0.5</priority> 
+   <priority>0.8</priority> 
 </url>  
 
 
