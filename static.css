@@ -2374,13 +2374,13 @@ iframe.tc-edit-texteditor.tc-edit-texteditor-body { width: calc(100% - .5px); }
 
     top: 10px;
 
-    transition: width calc(300ms / 2);
+    transition: width calc(400ms / 2);
 }.tc-body.tc-single-tiddler-window .tc-tiddler-frame input.tc-titlebar.tc-edit-texteditor,
 .tc-body.tc-single-tiddler-window .tc-tiddler-frame .tc-tiddler-title.tc-tiddler-edit-title {
 
     top: -1px;
 
-    transition: width calc(300ms / 2);
+    transition: width calc(400ms / 2);
 }.tc-tiddler-title.tc-tiddler-edit-title {
     text-align: right;
 }.w-fullscreen .tc-tiddler-title.tc-tiddler-edit-title,
@@ -2681,7 +2681,7 @@ input.tc-titlebar.tc-edit-texteditor { padding-left: .5em !important; }
 .tc-tiddler-frame .tc-text-editor-toolbar-item-wrapper > button > svg {
     stroke: #aeaeae;
     stroke-width: 3;
-    transition: fill calc(300ms / 2);
+    transition: fill calc(400ms / 2);
     width: 1.2em;
     height: 1.1em;
 }.tc-tiddler-frame .tc-text-editor-toolbar-item-wrapper > button {
@@ -2691,7 +2691,7 @@ input.tc-titlebar.tc-edit-texteditor { padding-left: .5em !important; }
     height: 2.25em;
     position: relative;
     color: rgba(0, 0, 0, 0.87);
-    transition: background calc(300ms / 2);
+    transition: background calc(400ms / 2);
     outline: none;
 }.tc-tiddler-frame .tc-text-editor-toolbar-item-wrapper > button:hover {
     background: #e8e7e7;

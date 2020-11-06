@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
    <loc>https://hanspinckaers.com</loc> 
-   <lastmod>2020-10-23</lastmod>
+   <lastmod>2020-11-06</lastmod>
    <priority>1.0</priority> 
 </url> 
 <url>
@@ -53,6 +53,11 @@
 <url>
    <loc>https://hanspinckaers.com/using-a-sony-alpha-camera-as-a-webcam-in-ubuntu</loc> 
    <lastmod>2020-10-16</lastmod>  
+   <priority>0.8</priority> 
+</url>  
+<url>
+   <loc>https://hanspinckaers.com/using-a-sony-alpha-camera-as-webcam-in-macos-catalina</loc> 
+   <lastmod>2020-11-06</lastmod>  
    <priority>0.8</priority> 
 </url>  
 
