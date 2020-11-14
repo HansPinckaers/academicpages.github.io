@@ -4077,10 +4077,10 @@ font-weight: 500; }.tc-tiddler-frame {
    font-size: 1.6em;
 }
 }.tc-tiddler-frame {
-	box-shadow: 0 2px 4px rgba(0,0,0,0.05), 
-                0 4px 8px rgba(0,0,0,0.05), 
-                0 8px 16px rgba(0,0,0,0.05), 
-                0 16px 32px rgba(0,0,0,0.05) !important;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.04), 
+                0 4px 6px rgba(0,0,0,0.04), 
+                0 8px 12px rgba(0,0,0,0.04), 
+                0 16px 24px rgba(0,0,0,0.04) !important;
     border-radius: 4px;
 }
 
