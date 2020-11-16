@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
    <loc>https://hanspinckaers.com</loc> 
-   <lastmod>2020-11-14</lastmod>
+   <lastmod>2020-11-16</lastmod>
    <priority>1.0</priority> 
 </url> 
 <url>
@@ -13,6 +13,11 @@
 <url>
    <loc>https://hanspinckaers.com/detection-of-prostate-cancer-in-whole-slide-images-through-end-to-end-training-with-image-level-labels</loc> 
    <lastmod>2020-10-13</lastmod>  
+   <priority>0.8</priority> 
+</url>  
+<url>
+   <loc>https://hanspinckaers.com/fixing-coc-pyright-and-anaconda-import-errors</loc> 
+   <lastmod>2020-11-16</lastmod>  
    <priority>0.8</priority> 
 </url>  
 <url>

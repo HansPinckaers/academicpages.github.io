@@ -13,7 +13,7 @@
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="static.css">
 <link href="https://fonts.googleapis.com/css2?family=Literata:wght@400;700&display=swap" rel="stylesheet">
-<title>Using a Sony alpha camera as a webcam in macOS Catalina — Hans Pinckaers</title>
+<title>Fixing coc-pyright and anaconda import errors — Hans Pinckaers</title>
 </head>
 <body class="tc-body">
 
@@ -25,7 +25,7 @@
 
 
 <section class="tc-story-river">
-<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-Public tc-tagged-Photography" data-tags="Public Photography" data-tiddler-title="Using a Sony alpha camera as a webcam in macOS Catalina"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-Public tc-tagged-Vim" data-tags="Public Vim" data-tiddler-title="Fixing coc-pyright and anaconda import errors"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal">
 
 	<button class="tc-btn-invisible tc-btn-%24%3A%2F_sq%2FStories%2FdivertTiddlerMacro" title="Divert this tiddler to the other story">
 		
@@ -38,26 +38,26 @@
 	</button>
 
 
-</span><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">Using a Sony alpha camera as a webcam in macOS Catalina</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
+</span><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">Fixing coc-pyright and anaconda import errors</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
 <div class="tc-subtitle">
 <a class="tc-tiddlylink tc-tiddlylink-missing" href="./hanspinckaers">
 hanspinckaers
 </a>
-updated 10 days ago
-<span style="float:right">created: 06 November 2020
+updated 22 seconds ago
+<span style="float:right">created: 16 November 2020
 </span>
 </div><div class=" tc-reveal">
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
 <span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:rgba(0, 0, 0, 0.87);
 color:rgba(0, 0, 0, 0.87);">
-Photography
+Public
 </span>
 <span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
 <span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:rgba(0, 0, 0, 0.87);
 color:rgba(0, 0, 0, 0.87);">
-Public
+Vim
 </span>
 <span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
 </div>
@@ -66,7 +66,10 @@ Public
   
 
 
-</div><div class="tc-tiddler-body tc-reveal"><ul><li>Make sure firmware is up to date (on my alpha 6300 v2.01), if you don't upgrade you will be stuck on 'Connecting': <ul><li>This is tricky to install on Catalina</li><li>Download firmware first from Sony website, google your camera name + firmware update</li><li>The update will not run on Catalina, you have to use <a class="tc-tiddlylink-external" href="https://support.d-imaging.sony.co.jp/mac/driver/1015/en/index.html" rel="noopener noreferrer" target="_blank">this guide</a></li></ul></li><li>Download and install <a class="tc-tiddlylink-external" href="https://support.d-imaging.sony.co.jp/app/webcam/en/" rel="noopener noreferrer" target="_blank">Sony webcam application</a></li><li>Restart Mac</li><li>You will not see an application, but the app is running in the background.</li><li>Now follow <a class="tc-tiddlylink-external" href="https://support.d-imaging.sony.co.jp/app/webcam/en/instruction/" rel="noopener noreferrer" target="_blank">this guide</a> to make it connect to your camera.</li></ul></div>
+</div><div class="tc-tiddler-body tc-reveal"><ul><li>You have to be inside an actual environment, the default environment doesn't work for me.</li><li>Creat the following file to your project root.</li><li><strong>pyrightconfig.json</strong> and obviously change paths to your miniconda/anaconda install and environment name: </li></ul><pre><code>{
+    &quot;venvPath&quot;: &quot;/Users/Hans/miniconda3/envs&quot;,
+    &quot;venv&quot;: &quot;py38&quot;
+}</code></pre><ul><li>Now install packages inside this environment, and they should be found by coc-pyright!</li></ul></div>
 
 
 
