@@ -43,7 +43,7 @@
 <a class="tc-tiddlylink tc-tiddlylink-missing" href="./hanspinckaers">
 hanspinckaers
 </a>
-updated 22 seconds ago
+updated 20 seconds ago
 <span style="float:right">created: 16 November 2020
 </span>
 </div><div class=" tc-reveal">
@@ -66,10 +66,10 @@ Vim
   
 
 
-</div><div class="tc-tiddler-body tc-reveal"><ul><li>You have to be inside an actual environment, the default environment doesn't work for me.</li><li>Creat the following file to your project root.</li><li><strong>pyrightconfig.json</strong> and obviously change paths to your miniconda/anaconda install and environment name: </li></ul><pre><code>{
+</div><div class="tc-tiddler-body tc-reveal"><ul><li>You have to install the packages you want coc-pyright to find inside an actual environment, the default/base environment doesn't work for me.</li><li>Then create the following file to your project root:</li><li><strong>pyrightconfig.json</strong> and obviously change paths to your miniconda/anaconda install and environment name: </li></ul><pre><code>{
     &quot;venvPath&quot;: &quot;/Users/Hans/miniconda3/envs&quot;,
     &quot;venv&quot;: &quot;py38&quot;
-}</code></pre><ul><li>Now install packages inside this environment, and they should be found by coc-pyright!</li></ul></div>
+}</code></pre><ul><li>Where <code>venvPath</code> is the path to he directory of the conda environments and <code>venv</code> is the name of the environment.</li><li>Now install packages inside this environment, and they should be found by coc-pyright!</li></ul></div>
 
 
 
