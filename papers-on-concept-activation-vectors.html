@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="generator" content="TiddlyWiki" />
+<meta name="tiddlywiki-version" content="5.1.22" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="format-detection" content="telephone=no">
+<link id="faviconLink" rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static.css">
+<link href="https://fonts.googleapis.com/css2?family=Literata:wght@400;700&display=swap" rel="stylesheet">
+<title>Papers on Concept Activation Vectors — Hans Pinckaers</title>
+</head>
+<body class="tc-body">
+
+<div class="tc-sidebar-scrollable" style="overflow: auto;">
+<div class="tc-sidebar-header"><h1 class="tc-site-title"><a href="/" class='tc-tiddlylink'>Hans Pinckaers — Public notes</a> </h1></div>
+
+<div class="tc-site-subtitle">A collection of short public notes exported from my private <a href="https://tiddlywiki.com/" class="tc-tiddlylink">tiddlywiki</a>. Find an <a href="/" class="tc-tiddlylink">overview of all notes here.</a> Feedback? You can reach me at <em>mail@hanspinckaers.com</em>.</div>
+</div>
+
+
+<section class="tc-story-river">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-Deep%20learning tc-tagged-Public" data-tags="[[Deep learning]] Public" data-tiddler-title="Papers on Concept Activation Vectors"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal">
+
+	<button class="tc-btn-invisible tc-btn-%24%3A%2F_sq%2FStories%2FdivertTiddlerMacro" title="Divert this tiddler to the other story">
+		
+			
+		
+		
+			
+			
+		<span class="sq-button-divert-right sq-button-divert"><svg class="tc-image-button" height="30pt" viewBox="0 0 100 125" width="30pt" x="0px" y="0px"><path d="M92.803,44.697l-27.5-27.5c-2.929-2.929-7.678-2.929-10.607,0c-2.929,2.929-2.929,7.678,0,10.607  L69.393,42.5H30h0c-5.118,0-10.237,1.953-14.142,5.858c-7.81,7.81-7.81,20.474,0,28.284c2.929,2.929,7.678,2.929,10.607,0  c2.929-2.929,2.929-7.678,0-10.607c-1.953-1.953-1.953-5.118,0-7.071C27.441,57.988,28.72,57.5,30,57.5h0v0h39.393L54.697,72.197  c-2.929,2.929-2.929,7.678,0,10.607s7.678,2.929,10.607,0l18.661-18.661l8.839-8.839C95.732,52.374,95.732,47.626,92.803,44.697z"></path></svg></span><span class="sq-button-divert-left sq-button-divert"><svg class="tc-image-button" height="30pt" viewBox="0 0 100 125" width="30pt" x="0px" y="0px"><path d="M7.197,44.697l27.5-27.5c2.929-2.929,7.678-2.929,10.607,0c2.929,2.929,2.929,7.678,0,10.607L30.607,42.5H70  h0c5.118,0,10.237,1.953,14.142,5.858c7.81,7.81,7.81,20.474,0,28.284c-2.929,2.929-7.678,2.929-10.607,0  c-2.929-2.929-2.929-7.678,0-10.607c1.953-1.953,1.953-5.118,0-7.071C72.559,57.988,71.28,57.5,70,57.5h0v0H30.607l14.697,14.697  c2.929,2.929,2.929,7.678,0,10.607c-2.929,2.929-7.678,2.929-10.607,0L16.036,64.142l-8.839-8.839  C4.268,52.374,4.268,47.626,7.197,44.697z"></path></svg></span>
+	</button>
+
+
+</span><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">Papers on Concept Activation Vectors</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
+<div class="tc-subtitle">
+<a class="tc-tiddlylink tc-tiddlylink-missing" href="./hanspinckaers">
+hanspinckaers
+</a>
+updated 42 seconds ago
+<span style="float:right">created: 16 February 2021
+</span>
+</div><div class=" tc-reveal">
+<div class="tc-tags-wrapper"><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:#caece8;
+fill:rgba(0, 0, 0, 0.87);
+color:rgba(0, 0, 0, 0.87);">
+Deep learning
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+fill:rgba(0, 0, 0, 0.87);
+color:rgba(0, 0, 0, 0.87);">
+Public
+</span>
+<span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
+</div>
+
+<div class="cherry-area">
+  
+
+
+</div><div class="tc-tiddler-body tc-reveal"><h2 class="">Theory</h2><p><strong>Debugging Tests for Model Explanations. </strong>Adebayo, J., Muelly, M., Liccardi, I., &amp; Kim, B. (2020). arXiv, 2011.05429v1. <a class="tc-tiddlylink-external" href="http://arxiv.org/abs/2011.05429v1" rel="noopener noreferrer" target="_blank">http://arxiv.org/abs/2011.05429v1</a></p><p><strong>Concept Whitening for Interpretable Image Recognition. </strong>Chen, Z., Bei, Y., &amp; Rudin, C. (2020). Nature Machine Intelligence, Vol 2, Dec 2020, 772-782, 2002.01650v5. <a class="tc-tiddlylink-external" href="http://arxiv.org/abs/2002.01650v5" rel="noopener noreferrer" target="_blank">http://arxiv.org/abs/2002.01650v5</a></p><p><strong>Concept Bottleneck Models</strong>. Koh, P. W., Nguyen, T., Tang, Y. S., Mussmann, S., Pierson, E., Kim, B., &amp; Liang, P. (2020).  arXiv, 2007.04612v3. <a class="tc-tiddlylink-external" href="http://arxiv.org/abs/2007.04612v3" rel="noopener noreferrer" target="_blank">http://arxiv.org/abs/2007.04612v3</a></p><p><strong>Towards Automatic Concept-based Explanations.</strong>
+Ghorbani, A., Wexler, J., Zou, J., &amp; Kim, B. (2019). arXiv, 1902.03129v3. <a class="tc-tiddlylink-external" href="http://arxiv.org/abs/1902.03129v3" rel="noopener noreferrer" target="_blank">http://arxiv.org/abs/1902.03129v3</a></p><p><strong>Explaining Classifiers with Causal Concept Effect (CaCE).</strong> Goyal, Y., Feder, A., Shalit, U., &amp; Kim, B. (2019). arXiv, 1907.07165v2. <a class="tc-tiddlylink-external" href="http://arxiv.org/abs/1907.07165v2" rel="noopener noreferrer" target="_blank">http://arxiv.org/abs/1907.07165v2</a></p><p><strong>Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (TCAV).</strong> Kim, B., Wattenberg, M., Gilmer, J., Cai, C., Wexler, J., &amp; Viegas, F.  (2018). In International conference on machine learning (pp. 2668-2677). PMLR. <a class="tc-tiddlylink-external" href="http://proceedings.mlr.press/v80/kim18d.html" rel="noopener noreferrer" target="_blank">http://proceedings.mlr.press/v80/kim18d.html</a></p><h2 class="">Application (medical domain)</h2><p><strong>Robust and Interpretable Convolutional Neural Networks to Detect Glaucoma in Optical Coherence Tomography Images.</strong> Thakoor, K. A., Koorathota, S. C., Hood, D. C., &amp; Sajda, P. (2020). IEEE Trans Biomed Eng, PP. <a class="tc-tiddlylink-external" href="https://doi.org/10.1109/TBME.2020.3043215" rel="noopener noreferrer" target="_blank">https://doi.org/10.1109/TBME.2020.3043215</a></p><p><strong>On interpretability of deep learning based skin lesion classifiers using concept activation vectors.</strong>  Lucieri, A., Bajwa, M. N., Braun, S. A., Malik, M. I., Dengel, A., &amp; Ahmed, S.  (2020). International Joint Conference on Neural Networks (IJCNN) (pp. 1-10). IEEE. <a class="tc-tiddlylink-external" href="https://ieeexplore.ieee.org/document/9206946" rel="noopener noreferrer" target="_blank">https://ieeexplore.ieee.org/document/9206946</a></p><p><strong>Concept-based model explanations for Electronic Health Records.</strong> Baur, S., Hou, S., Loreaux, E., Mincu, D., Mottram, A., Protsyuk, I., Tomasev, N., Seneviratne, M. G., Karthikesanlingam, A., &amp; Schrouff, J. (2020). arXiv, 2012.02308v1. <a class="tc-tiddlylink-external" href="http://arxiv.org/abs/2012.02308v1" rel="noopener noreferrer" target="_blank">http://arxiv.org/abs/2012.02308v1</a>
+</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+</div>
+
+</p>
+</section>
+</body>
+</html>
