@@ -13,7 +13,7 @@
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="static.css">
 <link href="https://fonts.googleapis.com/css2?family=Literata:wght@400;700&display=swap" rel="stylesheet">
-<title>Make conda fast — how I use conda — Hans Pinckaers</title>
+<title>Diagnosing learning curves problems — Hans Pinckaers</title>
 </head>
 <body class="tc-body">
 
@@ -25,7 +25,7 @@
 
 
 <section class="tc-story-river">
-<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-Public tc-tagged-Python" data-tags="Public Python" data-tiddler-title="Make conda fast — how I use conda"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-Public tc-tagged-Deep%20learning" data-tags="Public [[Deep learning]]" data-tiddler-title="Diagnosing learning curves problems"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal">
 
 	<button class="tc-btn-invisible tc-btn-%24%3A%2F_sq%2FStories%2FdivertTiddlerMacro" title="Divert this tiddler to the other story">
 		
@@ -38,26 +38,26 @@
 	</button>
 
 
-</span><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">Make conda fast — how I use conda</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
+</span><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">Diagnosing learning curves problems</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
 <div class="tc-subtitle">
 <a class="tc-tiddlylink tc-tiddlylink-missing" href="./hanspinckaers">
 hanspinckaers
 </a>
-updated 28 days ago
-<span style="float:right">created: 27 January 2021
+updated 20 hours ago
+<span style="float:right">created: 24 February 2021
 </span>
 </div><div class=" tc-reveal">
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
-<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
+<span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:#caece8;
 fill:rgba(0, 0, 0, 0.87);
 color:rgba(0, 0, 0, 0.87);">
-Public
+Deep learning
 </span>
 <span class="tc-drop-down tc-reveal" hidden="true"></span></span><span class="tc-tag-list-item">
 <span class="tc-tag-label tc-btn-invisible" draggable="true" style="background-color:;
 fill:rgba(0, 0, 0, 0.87);
 color:rgba(0, 0, 0, 0.87);">
-Python
+Public
 </span>
 <span class="tc-drop-down tc-reveal" hidden="true"></span></span></div>
 </div>
@@ -66,7 +66,7 @@ Python
   
 
 
-</div><div class="tc-tiddler-body tc-reveal"><p>What I do:</p><ul><li>Instead of conda, use <strong>miniconda</strong></li><li>Always use <strong>conda-forge</strong> channel<ul><li><code>conda config --add channels conda-forge</code></li><li><code>conda config --set channel_priority strict</code></li></ul></li><li><code>conda create -n mambacv python=3.8 opencv</code><ul><li>If I don't install opencv first I always have problems</li></ul></li><li><strong>Use mamba</strong>: <a class="tc-tiddlylink-external" href="https://github.com/mamba-org/mamba" rel="noopener noreferrer" target="_blank">https://github.com/mamba-org/mamba</a><ul><li><code>conda install mamba -c conda-forge</code></li><li>then <code>mamba install ...</code> instead of <code>conda install ..</code></li><li>in the future maybe try micromamba</li><li>and try <a class="tc-tiddlylink-external" href="https://github.com/mamba-org/gator" rel="noopener noreferrer" target="_blank">https://github.com/mamba-org/gator</a></li></ul></li><li>I use <strong>numpy nightly</strong> (for typestubs):<ul><li><code>pip install -i https://pypi.anaconda.org/scipy-wheels-nightly/simple numpy</code></li></ul></li></ul></div>
+</div><div class="tc-tiddler-body tc-reveal"><p>Some nice resources: </p><ul><li><a class="tc-tiddlylink-external" href="https://rstudio-conf-2020.github.io/dl-keras-tf/notebooks/learning-curve-diagnostics.nb.html#fn1" rel="noopener noreferrer" target="_blank">https://rstudio-conf-2020.github.io/dl-keras-tf/notebooks/learning-curve-diagnostics.nb.html#fn1</a></li><li><a class="tc-tiddlylink-external" href="https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/" rel="noopener noreferrer" target="_blank">https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/</a></li><li><a class="tc-tiddlylink-external" href="https://cs231n.github.io/neural-networks-3/" rel="noopener noreferrer" target="_blank">https://cs231n.github.io/neural-networks-3/</a></li></ul></div>
 
 
 
