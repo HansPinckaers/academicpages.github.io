@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
    <loc>https://hanspinckaers.com</loc> 
-   <lastmod>2021-02-25</lastmod>
+   <lastmod>2021-03-02</lastmod>
    <priority>1.0</priority> 
 </url> 
 <url>
@@ -61,6 +61,11 @@
    <priority>0.8</priority> 
 </url>  
 <url>
+   <loc>https://hanspinckaers.com/regression-with-fast.ai</loc> 
+   <lastmod>2021-03-02</lastmod>  
+   <priority>0.8</priority> 
+</url>  
+<url>
    <loc>https://hanspinckaers.com/streaming-convolutional-neural-networks-for-end-to-end-learning-with-multi-megapixel-images</loc> 
    <lastmod>2020-10-13</lastmod>  
    <priority>0.8</priority> 
@@ -68,6 +73,11 @@
 <url>
    <loc>https://hanspinckaers.com/training-convolutional-neural-networks-with-megapixel-images</loc> 
    <lastmod>2020-10-13</lastmod>  
+   <priority>0.8</priority> 
+</url>  
+<url>
+   <loc>https://hanspinckaers.com/use-fast.ai-transforms-with-regular-pytorch</loc> 
+   <lastmod>2021-03-02</lastmod>  
    <priority>0.8</priority> 
 </url>  
 <url>

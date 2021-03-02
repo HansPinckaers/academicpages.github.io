@@ -13,7 +13,7 @@
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="static.css">
 <link href="https://fonts.googleapis.com/css2?family=Literata:wght@400;700&display=swap" rel="stylesheet">
-<title>Diagnosing learning curve problems — Hans Pinckaers</title>
+<title>Regression with fast.ai — Hans Pinckaers</title>
 </head>
 <body class="tc-body">
 
@@ -25,7 +25,7 @@
 
 
 <section class="tc-story-river">
-<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-Public tc-tagged-Deep%20learning" data-tags="Public [[Deep learning]]" data-tiddler-title="Diagnosing learning curve problems"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal">
+<p><div class="tc-tiddler-frame tc-tiddler-view-frame tc-tiddler-exists  tc-tagged-Public tc-tagged-Deep%20learning" data-tags="Public [[Deep learning]]" data-tiddler-title="Regression with fast.ai"><div class="tc-tiddler-title"><div class="tc-titlebar"><span class="tc-tiddler-controls"><span class=" tc-reveal">
 
 	<button class="tc-btn-invisible tc-btn-%24%3A%2F_sq%2FStories%2FdivertTiddlerMacro" title="Divert this tiddler to the other story">
 		
@@ -38,13 +38,13 @@
 	</button>
 
 
-</span><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">Diagnosing learning curve problems</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
+</span><span class=" tc-reveal"><button aria-label="more" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fmore-tiddler-actions" title="More actions"></button><div class=" tc-reveal" hidden="true"></div></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="edit" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fedit" title="Edit this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal"><button aria-label="close" class="tc-btn-invisible tc-btn-%24%3A%2Fcore%2Fui%2FButtons%2Fclose" title="Close this tiddler"></button></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span><span class=" tc-reveal" hidden="true"></span></span><span><span class="tc-tiddler-title-icon" style="fill:;"></span><h2 class="tc-title">Regression with fast.ai</h2></span></div><div class="tc-tiddler-info tc-popup-handle tc-reveal" hidden="true"></div></div><div class=" tc-reveal" hidden="true"></div>
 <div class="tc-subtitle">
 <a class="tc-tiddlylink tc-tiddlylink-missing" href="./hanspinckaers">
 hanspinckaers
 </a>
-updated 5 days ago
-<span style="float:right">created: 24 February 2021
+updated 2 minutes ago
+<span style="float:right">created: 26 February 2021
 </span>
 </div><div class=" tc-reveal">
 <div class="tc-tags-wrapper"><span class="tc-tag-list-item">
@@ -66,7 +66,7 @@ Public
   
 
 
-</div><div class="tc-tiddler-body tc-reveal"><p>Some nice resources: </p><ul><li><a class="tc-tiddlylink-external" href="https://rstudio-conf-2020.github.io/dl-keras-tf/notebooks/learning-curve-diagnostics.nb.html#fn1" rel="noopener noreferrer" target="_blank">https://rstudio-conf-2020.github.io/dl-keras-tf/notebooks/learning-curve-diagnostics.nb.html#fn1</a></li><li><a class="tc-tiddlylink-external" href="https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/" rel="noopener noreferrer" target="_blank">https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/</a></li><li><a class="tc-tiddlylink-external" href="https://cs231n.github.io/neural-networks-3/" rel="noopener noreferrer" target="_blank">https://cs231n.github.io/neural-networks-3/</a></li></ul></div>
+</div><div class="tc-tiddler-body tc-reveal"><p>A small note because I couldn't find this easily (even though it is documented). To train a regression task in fast.ai you need to specify the <code>y_block</code> as <code>RegressionBlock</code>.</p><p>For example with ImageDataLoaders:</p><pre class="python hljs"><code>dls = ImageDataLoaders.from_df(df, path, bs=<span class="hljs-number">16</span>, y_block=RegressionBlock)</code></pre></div>
 
 
 
